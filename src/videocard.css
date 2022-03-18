@@ -2,13 +2,22 @@
     color: white;
     width: 500px;
     height: 400px;
-    padding: 20px;
+    padding: 35px;
     transition: transform 100ms ease-in-out;
     font-size: small;
 }
 
+.stats{
+    display: none;
+}
+
+.videoCard:hover>.stats{
+    display: flex;
+}
+
 .videoCard:hover{
     transform: scale(1.09);
+
 }
 
 .videoCard>img{

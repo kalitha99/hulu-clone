@@ -4,31 +4,30 @@
     padding: 20px;
     align-items: center;
     justify-content: space-between;
-    background-color: black;
     overflow-x: scroll;
-  }
+}
 
-.header::-webkit-scrollbar{
+.header::-webkit-scrollbar {
     display: none;
 }
 
 .header>img {
     object-fit: contain;
-    height: 80px;
+    height: 60px;
 }
 
 
 .header__icon>p {
     display: none;
-   text-transform: uppercase;
-   letter-spacing: 3px;
-   margin-right: auto;
-   margin-left: auto;
-   font-size: x-small;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: x-small;
 
 }
 
-.header__icon--active >p {
+.header__icon--active>p {
     display: inline-flex !important;
 }
 
@@ -42,10 +41,10 @@
 .header__icon {
 
     display: flex;
-   flex-direction: column;
-   width: 100%;
-   margin-right: 40px;
-   cursor: pointer;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 40px;
+    cursor: pointer;
 
 }
 
@@ -58,7 +57,7 @@
 }
 
 
-.header__icon > .MuiSvgIcon-root{
+.header__icon>.MuiSvgIcon-root {
     margin-right: auto;
     margin-left: auto;
     font-size: larger;
